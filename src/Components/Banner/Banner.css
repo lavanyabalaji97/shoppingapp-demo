@@ -1,0 +1,79 @@
+.black-background {
+    background-image: url('../../../public/Asserts/black.webp');
+    background-color: rgb(62, 64, 45);
+    color: rgb(120, 120, 120);
+    padding: 90px;
+    color: white;
+}
+
+.count-value {
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.link-style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #f9f2ea;
+    text-decoration: none;
+    border-bottom: 1px solid #F9F2EA;
+}
+
+.explore-heading {
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    text-transform: unset;
+    color: #f9f2ea;
+    padding-top: 41px;
+    text-align: justify;
+    word-spacing:1px;
+}
+.centric{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+@media only screen and (max-width: 480px) {
+    .explore-heading {
+        font-size: 28px;
+        margin-left: 0px;
+        margin-bottom: 18px;
+    }
+
+    .link-style {
+        font-size: 16px;
+    }
+
+    .count-value {
+        font-size: 36px;
+    }
+
+    .count-text {
+        font-size: 13px;
+    }
+
+    .black-background {
+        padding: 0px;
+    }
+
+    .count-value {
+        padding-top: 0px;
+        margin-bottom: -12px;
+    }
+
+    .hundred {
+        padding-bottom: 40px;
+    }
+
+}

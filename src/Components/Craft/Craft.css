@@ -1,0 +1,38 @@
+.heading {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 50px;
+    color: #3e402d;
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+    margin-right: 261px;
+    margin-bottom: 20px;
+}
+
+.craft-para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 35px;
+    margin-right: 100px;
+}
+
+@media only screen and (max-width:576px) {
+    .heading {
+        margin-right: 0px;
+    }
+
+    .craft-para {
+        margin-right: 0px;
+        font-size: 16px;
+    }
+    .button{
+        position: relative;
+        top: 500px;
+        margin-bottom: 30px;
+    }
+    .card-title{
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,118 @@
+.title-name {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+}
+
+.content {
+    font-size: 19px;
+}
+
+.marginleft {
+    margin-left: 10px;
+}
+
+.paddingleft {
+    padding-left: 110px;
+}
+
+.margin40 {
+    margin-left: 40px;
+}
+
+.padding_100 {
+    padding: 100px;
+}
+
+.count11 {
+    font-size: 70px;
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+    font-weight: 500;
+}
+
+.count-text {
+    font-size: 13px;
+    font-family: FuturaPT-Book;
+}
+
+.small-title {
+    color: black;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+/* .count-lists {
+    padding-top: 100px;
+} */
+
+.left-side {
+    padding-top: 100px;
+}
+
+.tree-image {
+    margin-left: 0;
+}
+
+.rowimage {
+    background-image: url('../../Asserts/tree.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .rowimage {
+        background-size: 120px;
+        background-position-y: bottom;
+    }
+
+    .marginleft {
+        margin-left: 0px;
+    }
+
+    .title-name {
+        font-size: 36px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+
+    .count11 {
+        font-size: 36px;
+        margin: 5px;
+    }
+
+    .paddingleft {
+        padding-left: 0px;
+    }
+
+    .margin40 {
+        margin-left: 0px;
+    }
+
+    .count-text {
+        font-size: 13px;
+    }
+
+    .counting {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .main-content {
+        padding: 0px 0px 0px 0px;
+        margin: 0px;
+    }
+
+    .title-name {
+        font-size: 36px;
+    }
+
+    .content {
+        font-size: 20px;
+    }
+
+
+}

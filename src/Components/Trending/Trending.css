@@ -1,0 +1,64 @@
+.card-title {
+    font-size: 18px;
+    text-align: left;
+    font-style: normal;
+    line-height: 25px;
+    letter-spacing: .5px;
+    color: inherit;
+    font-size: inherit;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    margin-right: -27px;
+    margin-top: 37px;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.big_title {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 50px;
+    color: #3e402d;
+    margin-bottom: 0;
+    text-align: left;
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+}
+
+.card-text {
+    line-height: 1;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #282828;
+    margin-top: 15px;
+}
+
+.cards_items {
+    width: 18rem !important;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 100px;
+}
+
+.line {
+    width: 75px;
+    background: #A37F4B;
+    height: 1px;
+    opacity: .5;
+    margin-bottom: 22px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .cards_items {
+        width: 12rem !important;
+        margin-bottom: 40px;
+    }
+    .card-title{
+        margin-right: 4px;
+    }
+}

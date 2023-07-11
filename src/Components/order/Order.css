@@ -1,0 +1,85 @@
+.order_section {
+    background-color: #eae2d8;
+}
+
+.big_para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    color: #3e402d;
+    margin-right: 180px;
+
+}
+
+.small_para {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;
+    color: #3e402d;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+
+}
+
+.more_btn{
+    background: #313323;
+    border: 1px solid #313323;
+    padding: 12px 28px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.touch_btn {
+    padding: 12px 19px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.touch_btn:hover {
+    background-color: #313323;
+    color: white;
+}
+
+.btn_sec {
+    margin-left: 110px;
+}
+
+.marginbox {
+    margin: 70px auto 50px !important;
+}
+
+@media only screen and (max-width:480px) {
+    .heading {
+        font-size: 36px;
+        margin-right: 157px;
+        line-height: 40px;
+    }
+
+    .big_para {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+    .touch_btn{
+        margin-left: 0px;
+    }
+}
