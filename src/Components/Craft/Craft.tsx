@@ -2,12 +2,13 @@
 import Button from '../Button/Button'
 import data from '../../Data.json'
 import '../Craft/Craft.css'
+import { FaRegHeart } from 'react-icons/fa'
 
 function Craft() {
   return (
     <div className='container'>
       <div className="row">
-        <div className="col-lg-6 col-md-4 col-12">
+        <div className="col-md-6 col-12 text-button">
           <div className='mt-3'>
             <p>In Focus</p>
             <h3 className='heading'>The world’s oldest craft form</h3>
@@ -17,14 +18,17 @@ function Craft() {
             </div>
           </div>
         </div>
-        <div className="col-lg-6 col-md-4 col-12 d-flex justify-content-between">
+        <div className="col-md-6 col-12 d-flex justify-content-between">
           {
             data.craft.map((item: any) => {
               return <div className="cards_items" key={item.id}>
+                <a href="">
+                <FaRegHeart className='hearticon' />
                 <img src={item.img} className="card-img-top" alt="..." />
+                </a>
                 <span className="line"><hr /></span>
                 <div className="card-body">
-                  <span>{item.span}</span>
+                  <span className='light-text'>{item.span}</span>
                   <h5 className="card-title">{item.title}</h5>
                   <p className="card-text">{item.price}</p>
                 </div>

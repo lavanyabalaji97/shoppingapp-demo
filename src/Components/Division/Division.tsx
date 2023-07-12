@@ -5,8 +5,8 @@ function Division() {
     return (
         <div className='container'>
             <div className="row">
-                <div className="col-lg-12 col-sm-9 col-12">
-                    <div className="d-lg-flex justify-content-evenly">
+                <div className="col-lg-12 col-md-12 col-12">
+                    <div className="d-md-flex justify-content-evenly gap-4">
                         <div>
                             <img src={humans} alt="" />
                         </div>

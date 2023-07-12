@@ -10,7 +10,6 @@
     margin-bottom: 40px;
     color: #3e402d;
     margin-right: 180px;
-
 }
 
 .small_para {
@@ -25,7 +24,7 @@
 
 }
 
-.more_btn{
+.more_btn {
     background: #313323;
     border: 1px solid #313323;
     padding: 12px 28px;
@@ -66,20 +65,28 @@
     margin: 70px auto 50px !important;
 }
 
-@media only screen and (max-width:480px) {
-    .heading {
-        font-size: 36px;
-        margin-right: 157px;
-        line-height: 40px;
-    }
-
+@media only screen and (max-width:768px) {
     .big_para {
         font-size: 16px;
         line-height: 22px;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
         margin-right: 0px;
     }
-    .touch_btn{
+
+    .touch_btn {
         margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .big_para {
+        margin-right: 0px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .heading {
+        font-size: 36px;
+        line-height: 32px;
     }
 }

@@ -26,18 +26,21 @@
         },
         {
             "id": 5,
+            "span":"UTTAR PRADESH ",
             "title": "Exclusive Handwoven Kilim Rug (8 x 5 ft)",
             "price": "₹ 36,930 INR",
             "img": "/Asserts/some.webp"
         },
         {
             "id": 6,
+            "span":"Chhattisgarh •", 
             "title": "The India Craft House Bastar Tribal Bird Figurine (Set of 2)",
             "price": "₹ 1,330 INR",
             "img": "/Asserts/duck.webp"
         },
         {
             "id": 7,
+            "span":"Uttar Pradesh • Marble",
             "title": "Marble Inlay Round Plate Curio with Stand",
             "price": "₹ 7,850 INR",
             "img": "/Asserts/plate.webp"
@@ -58,12 +61,14 @@
         },
         {
             "id": 2,
+            "span":" Karnataka • ",
             "title": "Lambani Tribal Neckpiece - Chanda Titri",
             "price": "₹ 3,480 INR",
             "img": "/Asserts/face.webp"
         },
         {
             "id": 3,
+            "span":" Macramé",
             "title": "Handknotted Crochet Tote Bag - Round, White & Yellow",
             "price": "₹ 3,480 INR",
             "img": "/Asserts/bag.webp"
@@ -102,6 +107,7 @@
     "Homeproducts": [
         {
             "id": 1,
+            "span":" Copper Craft ",
             "title": "Tambat Handbeaten Copper Tumblers (Set of 6)",
             "price": "₹ 3,710 INR",
             "img": "/Asserts/glass.webp"
@@ -114,12 +120,14 @@
         },
         {
             "id": 3,
+            "span":"Dhokra Metal",
             "title": "Dhokra Craft Curio - Farmer",
             "price": "₹ 3,480 INR",
             "img": "/Asserts/steel-face.webp"
         },
         {
             "id": 4,
+            "span":"Jute",
             "title": "Handwoven Jute Table Runner & Mats (Set of 5) - Dull Mustard & Rust",
             "price": "₹ 3,110 INR ",
             "img": "/Asserts/table.webp"
@@ -138,12 +146,14 @@
         },
         {
             "id": 7,
+            "span":" Andhra Pradesh • Coconut Craft",
             "title": "Coconut Craft Table Lamp",
             "price": "₹ 2,710 INR ",
             "img": "/Asserts/light.webp"
         },
         {
             "id": 8,
+            "span":"Chhattisgarh •",
             "title": "Bastar Tribal Art - Candle Holders - Deer (Set of 2)",
             "price": "₹ 2,830 INR ",
             "img": "/Asserts/horse.webp"
@@ -170,18 +180,21 @@
     "men": [
         {
             "id": 1,
+            "span":" Rajasthan •",
             "title": "Summer Breeze - Tie & Dye Cotton Shirt - Dull Blue",
             "price": "₹ 2,830 INR ",
             "img": "/Asserts/blueshirt.webp"
         },
         {
             "id": 2,
+            "span":"Rajasthan • Jawaja Leather",
             "title": "Handcrafted Leather Cross Body Bag With Hand Stitch Detail",
             "price": "₹ 2,830 INR ",
             "img": "/Asserts/handbag.webp"
         },
         {
             "id": 3,
+            "span":" Assorted Leather",
             "title": "Rugged Leather Duffler Bag (Length-22)",
             "price": "₹ 2,830 INR ",
             "img": "/Asserts/sunglassboy.webp"
@@ -196,24 +209,28 @@
     "children": [
         {
             "id": 1,
+            "span":" Uttar Pradesh • Toys & Gamesing",
             "title": "Handcrafted Snakes & Ladders Board Game",
             "price": "₹ 2,830 INR ",
             "img": "/Asserts/game.webp"
         },
         {
             "id": 2,
+            "span":"Jute Craft",
             "title": "Jute Craft - Doll Keychain (Set of 2)",
             "price": "₹ 2,830 INR ",
             "img": "/Asserts/toys.webp"
         },
         {
             "id": 3,
+            "span":"Uttar Pradesh •",
             "title": "Handcrafted Wooden Puzzles With Box (Set of 3)",
             "price": "₹ 2,830 INR ",
             "img": "/Asserts/box.webp"
         },
         {
             "id": 4,
+            "span":"Uttar Pradesh • Toys & Gamesing",
             "title": "Handcrafted Wooden Puzzles With Box (Set of 3)",
             "price": "₹ 2,830 INR ",
             "img": "/Asserts/handcrafted.webp"
@@ -222,12 +239,14 @@
     "work": [
         {
             "id": 1,
+            "span":" Bidri ",
             "title": "Bidri Craft Set - Paper Cutter & Paper Weight",
             "price": "₹ 2,830 INR ",
             "img": "/Asserts/sward.webp"
         },
         {
             "id": 2,
+            "span":" Dhokra Metal ",
             "title": "Dhokra Craft Stationery Stand, The Web",
             "price": "₹ 2,830 INR ",
             "img": "/Asserts/stand.webp"
@@ -240,6 +259,7 @@
         },
         {
             "id": 4,
+            "span":"Karnataka • Bidri",
             "title": "Phad Art - Desk Set (Set of 2)",
             "price": "₹ 2,830 INR ",
             "img": "/Asserts/art.webp"

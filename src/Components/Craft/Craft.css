@@ -18,7 +18,8 @@
     margin-right: 100px;
 }
 
-@media only screen and (max-width:576px) {
+
+@media only screen and (max-width:768px) {
     .heading {
         margin-right: 0px;
     }
@@ -27,12 +28,30 @@
         margin-right: 0px;
         font-size: 16px;
     }
-    .button{
+
+    .button {
         position: relative;
         top: 500px;
         margin-bottom: 30px;
     }
-    .card-title{
+
+    .card-title {
         margin-top: 0px;
     }
+}
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+    .heading {
+        margin-right: 0px;
+    }
+
+    .craft-para {
+        margin-right: 0px;
+        font-size: 16px;
+    }
+
+    .card-title {
+        margin-top: 0px;
+    }
+
 }

@@ -1,0 +1,10 @@
+.cards_items{
+    position: relative;
+}
+
+.hearticon{
+    color: white;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}

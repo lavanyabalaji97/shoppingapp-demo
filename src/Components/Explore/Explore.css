@@ -1,52 +1,111 @@
-.shop_now {
-    padding: 10px 30px;
+.shopping a {
+    border: 1px solid black;
     text-decoration: none;
     color: black;
-    border: 1px solid black;
-    font-size: 17px;
-    text-align: center;
+    padding: 12px 28px;
     font-size: 20px;
+    font-family: FuturaPT-Book;
+    font-weight: 400;
 }
 
-.shop_now:hover {
+.shopping a:hover {
     background-color: black;
     color: white;
 }
 
-.list_items {
+.top {
+    margin-top: 100px;
+}
+
+.unordered {
     list-style-type: none;
-    width: 100%;
-}
-
-.first_content {
     margin-top: 40px;
-    margin-bottom: 48px;
-    margin-left: 26px;
+    margin-bottom: 20px;
+
 }
 
-.list_items li a {
+.unordered li>a {
     text-decoration: none;
     color: black;
+    padding: 20px 0px;
+    font-size: 24px;
     border-bottom: 1px solid black;
-    border-top: 1px solid black;
 }
 
-.explore_heading {
+
+
+.ex-heading {
     font-size: 50px;
-    font-weight: 700;
-    text-transform: none;
-    line-height: 50px;
-    color: #3e402d;
-    text-align: left;
     font-family: NYTMagSerifHeadlineWEB-Bold;
+    font-weight: 500;
+    line-height: 50px;
 }
 
-.list_items li a {
+.explore-image {
+    background-image: url('../../../public/Asserts/twohorses.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
+    width: 200px;
+    background-size: 450px 450px;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+ul li a {
     font-size: 24px;
     line-height: 30px;
     color: #27221d;
     padding: 20px 0;
     display: block;
+}
 
+ul {
+    display: block;
+    width: 100%;
+    float: left;
+}
 
+.special {
+    border-top: 1px solid black;
+}
+
+li svg {
+    margin: 5px;
+}
+
+@media only screen and (max-width:768px) {
+    .explore-image {
+        background-size: 300px;
+        height: 1000px;
+    }
+
+    .ex-heading {
+        font-size: 36px;
+        line-height: 40px;
+        padding-right: 0px;
+    }
+
+    .shopping {
+        position: relative;
+        top: 567px
+    }
+
+    .unordered {
+        padding-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .shop-now {
+        position: relative;
+        top: 537px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 992px) {
+    .explore-image{
+        background-size: 400px 300px;
+        
+
+    }
 }

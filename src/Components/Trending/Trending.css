@@ -42,6 +42,7 @@
     border-radius: 0;
     border: none;
     margin-bottom: 100px;
+    position: relative;
 }
 
 .line {
@@ -52,13 +53,28 @@
     margin-bottom: 22px;
 }
 
+.hearticon{
+    color: white;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
 
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 768px) {
     .cards_items {
         width: 12rem !important;
         margin-bottom: 40px;
     }
-    .card-title{
+
+    .card-title {
         margin-right: 4px;
     }
+}
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+    .cards_items {
+        width: 15rem !important;
+    }
+
 }

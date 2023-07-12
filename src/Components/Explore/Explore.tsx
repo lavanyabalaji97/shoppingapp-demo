@@ -1,29 +1,32 @@
-import '../Explore/Explore.css'
-import twohorses from '../../Asserts/twohorses.webp'
+import '../Explore/Explore.css';
+
 function Explore() {
     return (
-        <div className='container'>
-            <div className="row mt-5">
-                <div className="col-lg-8 col-md-4 col-12">
-                    <div className='d-flex justify-content-between first_content'>
-                        <h1 className='explore_heading'>Explore Our collections</h1>
-                        <a href="" className='shop_now'>Shop Now</a>
+        <div className="container-lg container-fluid-sm list-types">
+            <div className="row">
+                <div className="explore-image">
+                    <div className="col-lg-12 col-md-8 ">
+                        <div className="d-md-flex justify-content-between top  mb-4">
+                            <div>
+                                <h1 className='ex-heading px-4'>Explore our  collections</h1>
+                            </div>
+                            <div className='shopping'>
+                                <a href="">Shop Now</a>
+                            </div>
+                        </div>
+                        <div className='d-md-flex justify-content-between'>
+                            <ul className='unordered'>
+                                <li className='special'><a href="">Women</a></li>
+                                <li><a href="">Kids</a></li>
+                                <li><a href="">Work</a></li>
+                            </ul>
+                            <ul className='unordered'>
+                                <li className='special'><a href="">Men</a></li>
+                                <li><a href="">Home & Living</a></li>
+                                <li><a href="">Gifts</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="d-lg-flex justify-content-between">
-                        <ul className='list_items'>
-                            <li><a href="">Women</a></li>
-                            <li><a href="">Kids</a></li>
-                            <li><a href="">Work</a></li>
-                        </ul>
-                        <ul className='list_items'>
-                            <li><a href="">Men</a></li>
-                            <li><a href="">Home & Living</a></li>
-                            <li><a href="">Gifts</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="col-lg-4">
-                   <img src={twohorses} alt="" />
                 </div>
             </div>
         </div>

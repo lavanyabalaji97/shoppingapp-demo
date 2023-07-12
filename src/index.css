@@ -35,3 +35,13 @@ body {
   background-color: black;
   color: white;
 }
+
+.light-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #3e402d7d;
+}

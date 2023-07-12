@@ -54,11 +54,11 @@
     margin-left: 0;
 }
 
-.rowimage {
+ .rowimage {
     background-image: url('../../Asserts/tree.webp');
     background-repeat: no-repeat;
     background-position: right;
-}
+} 
 
 @media only screen and (max-width: 768px) {
     .rowimage {
@@ -100,7 +100,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width:768px) and (max-width: 992px) {
     .main-content {
         padding: 0px 0px 0px 0px;
         margin: 0px;
@@ -111,8 +111,18 @@
     }
 
     .content {
-        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        color: #27221d;
+        padding-top: 35px;
+        display: block;
     }
-
+    .rowimage{
+        background-size: 234px 380px;
+    }
+    .paddingleft{
+        padding-left: 55px;
+    }
 
 }
