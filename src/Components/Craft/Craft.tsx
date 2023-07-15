@@ -23,8 +23,8 @@ function Craft() {
             data.craft.map((item: any) => {
               return <div className="cards_items" key={item.id}>
                 <a href="">
-                <FaRegHeart className='hearticon' />
-                <img src={item.img} className="card-img-top" alt="..." />
+                  <FaRegHeart className='hearticon' />
+                  <img src={item.img} className="card-img-top" alt="..." />
                 </a>
                 <span className="line"><hr /></span>
                 <div className="card-body">
@@ -35,7 +35,7 @@ function Craft() {
               </div>
             })
           }
- 
+
         </div>
       </div>
     </div>
