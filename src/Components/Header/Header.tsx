@@ -1,5 +1,4 @@
 import '../Header/Header.css';
-import Navbar from "../Navbar/Navbar";
 import { BsCart2, BsHeart, BsSearch } from "react-icons/bs";
 import Carousel from 'react-bootstrap/Carousel';
 import circle from '../../Asserts/circle.webp'

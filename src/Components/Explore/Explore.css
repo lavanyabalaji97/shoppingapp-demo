@@ -39,6 +39,7 @@
     font-family: NYTMagSerifHeadlineWEB-Bold;
     font-weight: 500;
     line-height: 50px;
+    width: 300px;
 }
 
 .explore-image {
@@ -83,6 +84,7 @@ li svg {
     .ex-heading {
         font-size: 36px;
         line-height: 40px;
+        padding-left:0px;
         padding-right: 0px;
     }
 

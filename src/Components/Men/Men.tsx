@@ -3,15 +3,16 @@ import Button from '../Button/Button'
 import '../Men/Men.css'
 import '../Choices/Choices.css'
 import { FaRegHeart } from 'react-icons/fa'
+import '../Trending/Trending.css'
 
 
 function Men() {
     return (
         <div className='container'>
             <div className="row d-flex justify-content-evenly margin_top">
-                <div className="col-lg-12 col-md-12 col-12 my-3 text-button">
+                <div className="col-lg-12 col-md-12 col-12 my-5 text-button top-space">
                     <p className='small-title'>For Men</p>
-                    <div className='two section d-flex justify-content-between'>
+                    <div className='two section d-flex justify-content-between bottom-space'>
                         <h3 className="big_title">Things for Men</h3>
                         <div className="d-none d-md-inline-block">
                             <Button />

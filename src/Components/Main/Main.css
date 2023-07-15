@@ -3,10 +3,17 @@
     font-weight: bold;
     line-height: 1;
     font-family: NYTMagSerifHeadlineWEB-Bold;
+    width: 338px;
 }
 
 .content {
-    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #27221d;
+    padding-top: 35px;
+    display: block;
 }
 
 .marginleft {
@@ -54,11 +61,14 @@
     margin-left: 0;
 }
 
- .rowimage {
+.rowimage {
     background-image: url('../../Asserts/tree.webp');
     background-repeat: no-repeat;
     background-position: right;
-} 
+}
+
+
+
 
 @media only screen and (max-width: 768px) {
     .rowimage {
@@ -67,7 +77,8 @@
     }
 
     .marginleft {
-        margin-left: 0px;
+        /* margin-left: 0px; */
+        width: 43%;
     }
 
     .title-name {
@@ -118,10 +129,12 @@
         padding-top: 35px;
         display: block;
     }
-    .rowimage{
+
+    .rowimage {
         background-size: 234px 380px;
     }
-    .paddingleft{
+
+    .paddingleft {
         padding-left: 55px;
     }
 

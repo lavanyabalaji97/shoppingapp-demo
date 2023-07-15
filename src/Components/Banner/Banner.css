@@ -33,14 +33,14 @@
     color: #f9f2ea;
     padding-top: 41px;
     text-align: justify;
-    word-spacing:1px;
+    word-spacing: 1px;
 }
-.centric{
+
+.centric {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 
@@ -77,8 +77,15 @@
     }
 
 }
+
+@media only screen and (max-width: 768px) {
+    .centric {
+        padding-left: 0px;
+    }
+}
+
 @media only screen and (min-width:768px) and (max-width: 992px) {
-    .hundred{
+    .hundred {
         padding-bottom: 0px;
     }
 }

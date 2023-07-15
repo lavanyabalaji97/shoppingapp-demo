@@ -1,14 +1,15 @@
 import Button from "../Button/Button"
 import data from '../../Data.json'
 import { FaRegHeart } from "react-icons/fa"
+import '../Trending/Trending.css'
 
 function Resides() {
     return (
         <div className='container'>
-            <div className="row d-flex justify-content-evenly">
+            <div className="row d-flex justify-content-evenly top-space mt-5">
                 <div className="col-lg-12 col-md-12 col-12 my-3">
                     <p className='small-title'>For The Home</p>
-                    <div className='two section d-flex justify-content-between'>
+                    <div className='d-flex justify-content-between bottom-space'>
                         <h3 className="big_title">Where the heart resides</h3>
                         <div className="d-none d-md-inline-block">
                             <Button />

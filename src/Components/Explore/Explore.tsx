@@ -5,10 +5,10 @@ function Explore() {
         <div className="container-lg container-fluid-sm list-types">
             <div className="row">
                 <div className="explore-image">
-                    <div className="col-lg-12 col-md-8 ">
+                    <div className="col-md-8 ">
                         <div className="d-md-flex justify-content-between top  mb-4">
                             <div>
-                                <h1 className='ex-heading px-4'>Explore our  collections</h1>
+                                <h1 className='ex-heading'>Explore our  collections</h1>
                             </div>
                             <div className='shopping'>
                                 <a href="">Shop Now</a>

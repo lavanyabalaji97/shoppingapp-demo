@@ -2,11 +2,11 @@ import '../Main/Main.css'
 
 function Main() {
     return (
-        <div className='rowimage' style={{ backgroundColor: "#E9E2D8" }}>
+        <div className='rowimage rightimage' style={{ backgroundColor: "#E9E2D8" }}>
             <div className="container padding_100">
                 <div className="row">
                     <div className="d-lg-flex d-md-flex justify-content-center">
-                        <div className="col-lg-6 col-md-6 col-12 marginleft">
+                        <div className="col-lg-5 col-md-6 col-12 marginleft">
                             <span className="small-title">Our Mission</span>
                             <h3 className='title-name'>Every Purchase has a purpose</h3>
                             <span className="content">We have direct partnerships with over 320 Indian artisans and

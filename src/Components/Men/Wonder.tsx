@@ -2,15 +2,17 @@ import { FaRegHeart } from 'react-icons/fa'
 import data from '../../Data.json'
 import Button from '../Button/Button'
 import '../Choices/Choices.css'
+import '../Trending/Trending.css'
+import '../Men/wonder.css'
 
 
 function Wonder() {
     return (
         <div className='container'>
             <div className="row d-flex justify-content-evenly">
-                <div className="col-md-12 col-12 my-3 text-button">
+                <div className="col-md-12 col-12 my-3 text-button top-space">
                     <p className='small-title'>For this season</p>
-                    <div className='two section d-flex justify-content-between'>
+                    <div className='two section d-flex justify-content-between bottom-space'>
                         <h3 className="big_title">The wonder of the growing years</h3>
                         <div className="d-none d-md-inline-block">
                             <Button />

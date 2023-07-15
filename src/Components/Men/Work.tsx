@@ -2,15 +2,17 @@ import { FaRegHeart } from 'react-icons/fa'
 import data from '../../Data.json'
 import Button from '../Button/Button'
 import '../Choices/Choices.css'
+import '../Trending/Trending.css'
+
 function Work() {
     return (
 
         <div className='container'>
             <div className="row d-flex justify-content-evenly">
-                <div className="col-lg-12 col-md-12 col-12 my-3 text-button">
-                    <p className='small-title'>For this season</p>
-                    <div className='two section d-flex justify-content-between'>
-                        <h3 className="big_title">Trending & New</h3>
+                <div className="col-lg-12 col-md-12 col-12 my-3 text-button top-space">
+                    <p className='small-title'>For Work</p>
+                    <div className='two section d-flex justify-content-between bottom-space'>
+                        <h3 className="big_title">Work in Style</h3>
                         <div className="d-none d-md-inline-block">
                             <Button />
                         </div>

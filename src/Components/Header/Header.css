@@ -59,7 +59,7 @@
     position: relative;
 }
 
-/* .navbar .navbar-nav .nav-item::after {
+.navbar .navbar-nav .nav-item::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -70,7 +70,7 @@
     content: "";
     height: 4px;
     transition: all 0.5s;
-} */
+}
 
 .underline {
     display: inline;

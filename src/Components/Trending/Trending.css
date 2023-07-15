@@ -10,7 +10,6 @@
     white-space: normal;
     text-overflow: ellipsis;
     margin-right: -27px;
-    margin-top: 37px;
 }
 
 .card-title a {
@@ -29,6 +28,14 @@
     font-family: NYTMagSerifHeadlineWEB-Bold;
 }
 
+.line {
+    width: 2px;
+    background: #A37F4B;
+    height: 1px;
+    opacity: .5;
+    margin-bottom: 22px;
+}
+
 .card-text {
     line-height: 1;
     font-weight: 500;
@@ -36,6 +43,8 @@
     color: #282828;
     margin-top: 15px;
 }
+
+
 
 .cards_items {
     width: 18rem !important;
@@ -45,25 +54,25 @@
     position: relative;
 }
 
-.line {
-    width: 75px;
-    background: #A37F4B;
-    height: 1px;
-    opacity: .5;
-    margin-bottom: 22px;
-}
 
-.hearticon{
+.hearticon {
     color: white;
     position: absolute;
     right: 25px;
     top: 15px;
 }
 
+.top-space {
+    margin-top: 82px;
+}
+
+.bottom-space {
+    margin-bottom: 36px;
+}
 
 @media only screen and (max-width: 768px) {
     .cards_items {
-        width: 12rem !important;
+        width: 11rem !important;
         margin-bottom: 40px;
     }
 

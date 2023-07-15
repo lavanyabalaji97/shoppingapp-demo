@@ -6,23 +6,25 @@ import { FaRegHeart } from "react-icons/fa";
 function Trending() {
     return (
         <div className='container'>
-            <div className="row d-lg-flex justify-content-evenly">
+            <div className="row d-lg-flex justify-content-evenly top-space mt-5">
                 <div className="col-md-12 col-12 my-3">
                     <p className='small-title'>For this season</p>
-                    <div className='two section d-flex justify-content-between'>
+                    <div className='d-flex justify-content-between bottom-space'>
                         <h3 className="big_title">Trending & New<i className="bi bi-plus"></i></h3>
                         <div className="d-none d-md-inline-block">
                             <Button />
                         </div>
                     </div>
-                </div>
+                </div>                
                 {
                     data.Trending.map((item: any) => {
                         return <div className="cards_items" key={item.id}>
                             <FaRegHeart className='hearticon' />
                             <a href="#">
                                 <img src={item.img} className="card-img-top" alt="..." /></a>
-                            <span className="line"><hr /></span>
+                            <span className="line">
+                                <hr/>
+                            </span>
                             <div className="card-body">
                                 <span className='light-text'>{item.span}</span>
                                 <h5 className="card-title"><a href="#">{item.title}</a></h5>
@@ -36,6 +38,7 @@ function Trending() {
                 <button className="link w-100">See all</button>
             </div>
         </div>
+        
     )
 }
 

@@ -7,7 +7,7 @@ function Footer() {
                 <div className="row">
                     <div className="col-lg-10 d-flex justify-content-between">
                         <div className='left_side'>
-                            <h3 className='craft-title col-12'>The Indian Craft House</h3>
+                            <h3 className='craft_title col-12'>The Indian Craft House</h3>
                             <ul className='d-lg-flex d-none'>
                                 <div className='visa_icon m-1'>
                                     <svg width="34" height="10" viewBox="0 0 34 10" fill="none" xmlns="http://www.w3.org/2000/svg">
