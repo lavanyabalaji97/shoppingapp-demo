@@ -2,90 +2,79 @@
     background-image: url('../../../public/Asserts/black.webp');
     background-color: rgb(62, 64, 45);
     color: rgb(120, 120, 120);
-    padding: 90px;
+    padding: 120px;
     color: white;
 }
 
-.count-value {
-    font-family: NYTMagSerifHeadlineWEB-Bold;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 700;
+.section_one {
+    margin-left: 150px;
+
 }
 
-.link-style {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #f9f2ea;
-    text-decoration: none;
-    border-bottom: 1px solid #F9F2EA;
-}
-
-.explore-heading {
-    font-family: NYTMagSerifHeadlineWEB-Bold;
-    font-style: normal;
-    font-weight: 700;
+.explore_heading {
     font-size: 40px;
-    line-height: 44px;
-    text-transform: unset;
-    color: #f9f2ea;
-    padding-top: 41px;
-    text-align: justify;
-    word-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-family: initial;
+    width: 82%;
+    line-height: 43px;
+
 }
 
-.centric {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+.explore_link {
+    color: white;
+    font-size: 20px;
+    font-family: initial;
 }
 
+.explore_number {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: initial;
+}
+
+.explore_span {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
 
 @media only screen and (max-width: 768px) {
-    .explore-heading {
-        font-size: 28px;
+    .black-background {
+        padding: 60px;
+    }
+
+    .section_one {
         margin-left: 0px;
-        margin-bottom: 18px;
     }
 
-    .link-style {
-        font-size: 16px;
+    .explore_heading {
+        font-size: 28px;
     }
 
-    .count-value {
+    .explore_number {
         font-size: 36px;
+        margin-top: 30px;
+        margin-bottom: 0px;
     }
-
-    .count-text {
+    .explore_span{
+        padding: 0px;
         font-size: 13px;
     }
-
-    .black-background {
-        padding: 0px;
+    .explore_link{
+        font-size: 16px;
     }
+ 
 
-    .count-value {
-        padding-top: 0px;
-        margin-bottom: -12px;
-    }
 
-    .hundred {
-        padding-bottom: 40px;
-    }
 
 }
 
-@media only screen and (max-width: 768px) {
-    .centric {
-        padding-left: 0px;
-    }
-}
 
-@media only screen and (min-width:768px) and (max-width: 992px) {
-    .hundred {
-        padding-bottom: 0px;
-    }
-}
+
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width: 992px) {}

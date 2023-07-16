@@ -10,7 +10,7 @@ function Header() {
     return (
         <div>
             <div className="para">
-                <span>Enjoy complimentary shipping on all domestic orders up to Rs. 31,999</span>
+               <span>Enjoy complimentary shipping on all domestic orders up to Rs. 31,999</span>
             </div>
             <div className="navbar-sticky">
                 <div className="navbar-light bg-light navbar-top">

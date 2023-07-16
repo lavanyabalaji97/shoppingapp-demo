@@ -60,6 +60,14 @@ li a {
     border: none;
 }
 
+.accordion .accordion-item {
+    border: 0;
+}
+
+.accordion-button:not(.collapsed), .accordion-button {
+    box-shadow: none !important;
+}
+
 @media only screen and (max-width: 480px) {
     .footer_top {
         padding: 0px;
@@ -75,3 +83,4 @@ li a {
     }
     
 }
+

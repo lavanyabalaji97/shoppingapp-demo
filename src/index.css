@@ -45,3 +45,6 @@ body {
   text-transform: uppercase;
   color: #3e402d7d;
 }
+.accordion-item {
+  border: none;
+}

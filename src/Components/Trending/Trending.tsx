@@ -1,9 +1,8 @@
 import "../Trending/Trending.css"
 import Button from '../Button/Button'
-import data from '../../Data.json'
-import { FaRegHeart } from "react-icons/fa";
+import Icons from "../Icons/Icons";
 
-function Trending() {
+function Trending(props:any) {
     return (
         <div className='container'>
             <div className="row d-lg-flex justify-content-evenly top-space mt-5">
@@ -15,15 +14,15 @@ function Trending() {
                             <Button />
                         </div>
                     </div>
-                </div>                
+                </div>
                 {
-                    data.Trending.map((item: any) => {
+                   props.items.map((item: any) => {
                         return <div className="cards_items" key={item.id}>
-                            <FaRegHeart className='hearticon' />
+                            <Icons />
                             <a href="#">
                                 <img src={item.img} className="card-img-top" alt="..." /></a>
                             <span className="line">
-                                <hr/>
+                                <hr />
                             </span>
                             <div className="card-body">
                                 <span className='light-text'>{item.span}</span>
@@ -38,7 +37,6 @@ function Trending() {
                 <button className="link w-100">See all</button>
             </div>
         </div>
-        
     )
 }
 

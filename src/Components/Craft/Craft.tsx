@@ -18,7 +18,7 @@ function Craft() {
             </div>
           </div>
         </div>
-        <div className="col-md-6 col-12 d-flex justify-content-between">
+        <div className="col-md-6 col-12 gap-4 d-flex justify-content-between">
           {
             data.craft.map((item: any) => {
               return <div className="cards_items" key={item.id}>

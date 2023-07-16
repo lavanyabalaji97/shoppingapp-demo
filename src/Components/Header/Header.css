@@ -17,6 +17,7 @@
     color: white;
     background-repeat: no-repeat;
     background-color: rgb(64, 66, 47);
+    background-size: cover;
 }
 
 .small-link {
