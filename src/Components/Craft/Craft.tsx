@@ -8,10 +8,10 @@ function Craft() {
   return (
     <div className='container'>
       <div className="row">
-        <div className="col-md-6 col-12 text-button">
+        <div className="col-md-6 col-12">
           <div className='mt-3'>
             <p>In Focus</p>
-            <h3 className='heading'>The world’s oldest craft form</h3>
+            <h3 className='card_heading'>The world’s oldest craft form</h3>
             <p className='craft-para'>Dhokra Metal Craft. Dhokra is amongst the oldest traditional techniques of metal casting in India, practiced for over 4,000 years, said to date back to the era of the Indus Valley Civilisation. The lost wax technique or ‘cire-perdue’ has been the medium of metal workers in Madhya Pradesh, Chhattisgarh, Orissa and West Bengal. Entirely handcrafted, the unique 13-stage process of Dhokra /Bell-metal making today, is an outcome of the original craft instinct handed down through the centuries. Dhokra or Bell metal is an alloy of brass, and other metals that impart an antique effect to the castings.</p>
             <div className='button d-lg'>
               <Button />

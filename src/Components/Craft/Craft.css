@@ -1,4 +1,4 @@
-.heading {
+.card_heading {
     font-size: 50px;
     font-weight: 700;
     text-transform: none;
@@ -18,7 +18,7 @@
 
 
 @media only screen and (max-width:768px) {
-    .heading {
+    .card_heading {
         margin-right: 0px;
     }
 
@@ -39,7 +39,7 @@
 }
 
 @media only screen and (min-width:768px) and (max-width: 992px) {
-    .heading {
+    .card_heading {
         margin-right: 0px;
     }
 
