@@ -8,15 +8,13 @@
 
 .section_one {
     margin-left: 150px;
-
 }
 
 .explore_heading {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 25px;
-    font-family: initial;
-    width: 82%;
+    width: 93%;
     line-height: 43px;
 
 }
@@ -24,13 +22,11 @@
 .explore_link {
     color: white;
     font-size: 20px;
-    font-family: initial;
 }
 
 .explore_number {
     font-size: 70px;
     font-weight: 700;
-    font-family: initial;
 }
 
 .explore_span {
@@ -64,17 +60,4 @@
     .explore_link{
         font-size: 16px;
     }
- 
-
-
-
 }
-
-
-
-
-
-
-
-
-@media only screen and (min-width:768px) and (max-width: 992px) {}

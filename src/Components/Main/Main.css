@@ -2,12 +2,10 @@
     font-size: 50px;
     font-weight: bold;
     line-height: 1;
-    font-family: NYTMagSerifHeadlineWEB-Bold;
-    width: 338px;
+    /* width: 380px; */
 }
 
 .content {
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -34,24 +32,17 @@
 
 .count11 {
     font-size: 70px;
-    font-family: NYTMagSerifHeadlineWEB-Bold;
     font-weight: 500;
 }
 
 .count-text {
     font-size: 13px;
-    font-family: FuturaPT-Book;
 }
 
 .small-title {
     color: black;
     font-size: 16px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
-
-/* .count-lists {
-    padding-top: 100px;
-} */
 
 .left-side {
     padding-top: 100px;
@@ -67,9 +58,6 @@
     background-position: right;
 }
 
-
-
-
 @media only screen and (max-width: 768px) {
     .rowimage {
         background-size: 120px;
@@ -77,7 +65,6 @@
     }
 
     .marginleft {
-        /* margin-left: 0px; */
         width: 43%;
     }
 
@@ -109,6 +96,7 @@
     .counting {
         margin-right: 20px;
     }
+  
 }
 
 @media only screen and (min-width:768px) and (max-width: 992px) {

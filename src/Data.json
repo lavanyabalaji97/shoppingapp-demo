@@ -1,9 +1,6 @@
 {
     "Trending": [
-        {
-            "para": "For this season",
-            "heading": "Trending & New"
-        },
+       
         {
             "id": 1,
             "title": "Occasion Wear. Georgette Lehariya Kurta Set With Beadwork - Royal",
@@ -57,10 +54,7 @@
         }
     ],
     "choice": [
-        {
-            "para": "For Women",
-            "heading": "Choices for the season"
-        },
+       
         {
             "id": 1,
             "title": "Sanganeri Block Printed Chanderi Slip Kurta Set With Beadwork - Wine",
@@ -113,10 +107,7 @@
         }
     ],
     "Homeproducts": [
-        {
-            "para": "For the home",
-            "header": "Where the heart resides"
-        },
+        
         {
             "id": 1,
             "span": " Copper Craft ",
@@ -188,10 +179,7 @@
         }
     ],
     "men": [
-        {
-            "para": "For Men",
-            "header": "Things for Men"
-        },
+       
         {
             "id": 1,
             "span": " Rajasthan •",
@@ -221,10 +209,7 @@
         }
     ],
     "children": [
-        {
-            "para": "For Children",
-            "header": "The wonder of the growing years"
-        },
+       
         {
             "id": 1,
             "span": " Uttar Pradesh • Toys & Gamesing",
@@ -255,10 +240,7 @@
         }
     ],
     "work": [
-        {
-            "para":"For Work",
-            "header":"Work in style"
-        },
+      
         {
             "id": 1,
             "span": " Bidri ",

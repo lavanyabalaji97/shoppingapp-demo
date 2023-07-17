@@ -7,9 +7,9 @@ function Trending(props:any) {
         <div className='container'>
             <div className="row d-lg-flex justify-content-evenly top-space mt-5">
                 <div className="col-md-12 col-12 my-3">
-                    <p className='small-title'>For this season</p>
+                    <p className='small-title'>{props.para}</p>
                     <div className='d-flex justify-content-between bottom-space'>
-                        <h3 className="big_title">Trending & New<i className="bi bi-plus"></i></h3>
+                        <h3 className="big_title">{props.title}<i className="bi bi-plus"></i></h3>
                         <div className="d-none d-md-inline-block">
                             <Button />
                         </div>

@@ -4,7 +4,6 @@
     color: black;
     padding: 12px 28px;
     font-size: 20px;
-    font-family: FuturaPT-Book;
     font-weight: 400;
 }
 
@@ -36,7 +35,6 @@
 
 .ex-heading {
     font-size: 50px;
-    font-family: NYTMagSerifHeadlineWEB-Bold;
     font-weight: 500;
     line-height: 50px;
     width: 300px;
@@ -84,7 +82,7 @@ li svg {
     .ex-heading {
         font-size: 36px;
         line-height: 40px;
-        padding-left:0px;
+        padding-left: 0px;
         padding-right: 0px;
     }
 
@@ -104,10 +102,9 @@ li svg {
         top: 537px;
     }
 }
-@media only screen and (min-width:768px) and (max-width: 992px) {
-    .explore-image{
-        background-size: 400px 300px;
-        
 
+@media only screen and (min-width:768px) and (max-width: 992px) {
+    .explore-image {
+        background-size: 400px 300px;
     }
 }

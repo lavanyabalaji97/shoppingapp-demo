@@ -3,14 +3,12 @@
     font-weight: 700;
     text-transform: none;
     line-height: 50px;
-    color: #3e402d;
-    font-family: NYTMagSerifHeadlineWEB-Bold;
-    margin-right: 261px;
+    color: hsl(66, 17%, 21%);
+    margin-right: 229px;
     margin-bottom: 20px;
 }
 
 .craft-para {
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;

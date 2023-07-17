@@ -14,7 +14,7 @@ function Order() {
                         <h3 className='heading'>Place a bulk order with us</h3>
                         <p className='big_para'>Whether you want to place a large customised order for a single item or a large assortment of multiple craft products, we can sort it out for you! For years we have also worked on custom orders for our clients – it is one of the many benefits of having direct relationships with our artisans. Just drop us a note!</p>
                         <div className="d-md-flex">
-                            <div className="col-lg-3">
+                            <div className="col-lg-4">
                                 <a href="" className='more_btn col-12'>Learn More</a>
                             </div>
                             <div className="col-lg-3">
